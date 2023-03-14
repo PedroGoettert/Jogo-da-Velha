@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: #483D8B;
+    margin: 1px;
+    display: inline-block;
+}
+
+
+.X {
+    position: relative;
+}
+
+.X:after {
+    content: "\1F5D9";
+    position: absolute;
+    font-size: 70px;
+    line-height: 100px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+}
+
+.O {
+    position: relative;
+}
+
+.O:after {
+    content: "\2B55";
+    position: absolute;
+    font-size: 70px;
+    line-height: 100px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+}
